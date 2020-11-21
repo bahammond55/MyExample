@@ -1,0 +1,13 @@
+name = "MyExample1"
+uuid = "ecb5e41d-f0ca-4fc7-aef0-b881f66b421f"
+authors = ["= <bahammond@sbcglobal.net> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
