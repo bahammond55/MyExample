@@ -1,13 +1,7 @@
-module MyExample
-
-greet() = println("xxxHello World")
-
-end
-
-module PhaseDetect
+module CircularMessage
 
 # Write your package code here.
-greet() = println("xxxHello World")
+greet() = println("CircularMessage")
 
 mutable struct circular_message
     m_size::Int
